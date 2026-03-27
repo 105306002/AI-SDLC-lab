@@ -44,7 +44,7 @@
 ```bash
 /mode advanced
 使用 GitHub MCP 幫我把這個專案 Fork 到我的帳號：
-https://github.ibm.com/jennie-chenni-lin/modernization-demo
+(https://github.com/105306002/modernization-demo)
 ```
 
 #### 3. 觀察 AI 動作
