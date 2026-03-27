@@ -39,8 +39,8 @@
 
 完成本 Lab 後，你的專案目錄應出現以下檔案：
 
-- [ ] `java-api/src/main/java/.../AccountController.java`
-- [ ] `java-api/src/main/java/.../AccountService.java`
+- [ ] `java-api/.../AccountController.java`
+- [ ] `java-api/.../AccountService.java`
 
 ---
 
