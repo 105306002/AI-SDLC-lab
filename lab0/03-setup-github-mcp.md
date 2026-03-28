@@ -29,34 +29,20 @@
 - ✅ 已安裝 **Bob AI 助手**
 - ✅ 已設定 **Git MCP Server**（參考 [02-setup-git-mcp.md](./02-setup-git-mcp.md)）
 - ✅ 有 **GitHub 帳號**
-- ✅ 已安裝 **Podman**
+- ✅ 已安裝 **Node.js(v18.0.0++)**
 
-### 檢查 Podman
 
-開啟終端機並執行：
+
+## ✅ 前置檢查：Node.js 版本
+
+在開始之前，請確認您已安裝符合要求的 Node.js 版本。
+
+### **檢查步驟**
+
+開啟終端機（Terminal / PowerShell），執行以下命令：
 
 ```bash
-podman --version
-```
-
-如果沒有安裝：
-
-**Windows** :
-https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
-https://github.com/containers/podman/releases 下載 podman msi 檔
-```bash
-
-wsl --install
-podman machine init
-podman machine set --rootful
-podman machine start
-```
-
-**macOS**:
-```bash
-brew install podman
-podman machine init
-podman machine start
+node --version
 ```
 ---
 
@@ -167,27 +153,15 @@ C:\Users\<你的使用者名稱>\.bob\settings\mcp_settings.json
 {
   "mcpServers": {
     "github": {
-      "command": "podman",
+      "command": "npx",
       "args": [
-        "run",
-        "-i",
-        "--rm",
-        "-e",
-        "GITHUB_PERSONAL_ACCESS_TOKEN",
-        "-e",
-        "GITHUB_TOOLSETS",
-        "-e",
-        "GITHUB_READ_ONLY",
-        "-e",
-        "GITHUB_HOST",
-        "ghcr.io/github/github-mcp-server"
+        "-y",
+        "@modelcontextprotocol/server-github"
       ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN=<你的 GitHub Token>",
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<你的 GitHub Token>",
         "GITHUB_HOST": "https://github.com"
-      },
-      "alwaysAllow": [],
-      "disabledTools": []
+      }
     },
     "git": {
       "command": "npx",
