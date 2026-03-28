@@ -10,12 +10,12 @@
 
 此 Lab0 將引導你完成 Workshop 的環境準備：
 
-1. ✅ [安裝 Bob AI 助手](#1-安裝-bob-ai-助手)
-2. ✅ [設定 Git MCP Server](#2-設定-git-mcp-server)
-3. ✅ [設定 GitHub MCP Server](#3-設定-github-mcp-server)
-4. ✅ [Fork Repository](#4-fork-repository)
-5. ✅ [創建 Issues 模擬工單](#5-創建-issues-模擬工單)
-6. ✅ [Clone Repository 到本機](#6-clone-repository-到本機)
+1. 安裝 Bob AI 助手
+2. 設定 Git MCP Server
+3. 設定 GitHub MCP Server
+4. Fork Repository
+5. 創建 Issues 模擬工單
+6. Clone Repository 到本機
 
 ---
 
@@ -50,21 +50,6 @@
 - 使用 Bob 執行 Clone 操作
 - 驗證本地專案結構
 
-
----
-
-## ⏱預估時間
-
-| 步驟 | 預估時間 |
-|------|---------|
-| 安裝 Bob | 5 分鐘 |
-| 設定 Git MCP Server | 10 分鐘 |
-| 設定 GitHub MCP Server | 10 分鐘 |
-| Fork Repository | 5 分鐘 |
-| 創建 Issues | 5 分鐘 |
-| Clone Repository | 5 分鐘 |
-| **總計** | **35-45 分鐘** |
-
 ---
 
 ## 完成檢查清單
@@ -89,7 +74,7 @@
 1. Node.js 是否已安裝
 2. npx 指令是否可用
 3. 設定檔配置正確
-4. Podman 已安裝並正常啟動
+
 
 
 ---
