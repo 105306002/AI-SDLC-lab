@@ -28,7 +28,7 @@
 3. 在「**使用者變數**」區塊中找到 `Path`，點選「**編輯**」。
 4. 點擊「**新增**」，並貼入`C:\Program Files\nodejs`。
 5. **重要**：設定完成後，必須**重啟** PowerShell 才會生效 測試 `node -v` & `npm -v `。
-6. 
+
 <img width="497" height="200" alt="Image" src="https://github.com/user-attachments/assets/5a3ecd72-d2ac-4527-a07b-08af007a0397" />
 
 > 💡 **進階 Tips: 為什麼要學 CLI 模式？**
