@@ -9,17 +9,17 @@
 - ✅ 已完成 Lab 0
 - ✅ 已 Fork 並 Clone `modernization-demo` 專案
 - ✅ 已建立 GitHub Issues
-- ✅ 已在 Bob IDE (VS Code) 中開啟專案，或已在終端機中切換到專案目錄
+- ✅ 已在終端機中切換到專案目錄
 
 ---
 
 ## 🚀 開始前的準備
 
-在開始 Lab 1 之前，請確保你已經在 BobShell 中進入專案目錄：
+在開始 Lab 1 之前，請確保你已經在 Bob CLI 中進入專案目錄：
 
 ### 確認工作目錄
 
-如果你已經完成 Lab 0 的步驟 6，應該已經在 `modernization-demo` 目錄下啟動了 BobShell。
+如果你已經完成 Lab 0 的步驟 6，應該已經在 `modernization-demo` 目錄下啟動了 Bob CLI。
 
 如果尚未啟動或需要重新啟動，請在終端機中執行：
 
@@ -30,8 +30,6 @@ cd modernization-demo
 # 啟動 BobShell
 bob
 ```
-
-> ⚠️ **重要**：Lab 1 使用 BobShell CLI 進行操作。BobShell 必須在專案目錄下啟動，才能正確讀取 .NET 程式碼和執行 Git 操作。
 
 ---
 
