@@ -46,12 +46,12 @@
 
 #### **macOS / Linux (Terminal)**
 ```bash
-curl -fsSL [https://bob.ibm.com/download/bobshell.sh](https://bob.ibm.com/download/bobshell.sh) | bash
+curl -fsSL https://bob.ibm.com/download/bobshell.sh | bash
 ```
 
 #### **Windows (PowerShell)**
 ```bash
-powershell -ep Bypass 'irm -Uri "[https://bob.ibm.com/download/bobshell.ps1](https://bob.ibm.com/download/bobshell.ps1)" | iex'
+powershell -ep Bypass 'irm -Uri "https://bob.ibm.com/download/bobshell.ps1" | iex'
 ```
 
 ## 🚀 啟動 Bob Shell 的兩種方式
