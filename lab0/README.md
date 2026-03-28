@@ -43,37 +43,12 @@
 
 
 ### 📖 [5. 創建 Issues 模擬工單](./05-create-issues.md)
-- 使用 Issue 模板
-- 創建轉換任務
+- 使用 Bob 創建 Issues
 
 ### 📖 [6. Clone Repository 到本機](./06-clone-repository.md)
 - 使用 Bob 執行 Clone 操作
 - 驗證本地專案結構
 
----
-
-## 完成檢查清單
-
-完成 Lab0 後，你應該能夠：
-
-- [ ] Bob AI 助手已安裝並可正常啟動
-- [ ] Git MCP Server 已配置並可使用 Git MCP 執行 Git 操作
-- [ ] GitHub MCP Server 已配置並可使用 GitHub MCP 存取 GitHub API
-- [ ] 已 Fork SDLC-demo 專案到你的帳號
-- [ ] 已創建至少 1 個 Issue
-- [ ] 已 Clone 專案到本機
-- [ ] 可以使用 Bob 查看 Issues 和 Git 狀態
-
----
-
-## 常見問題
-
-
-### Q: MCP Server 連接失敗？
-**A**: 檢查：
-1. Node.js 是否已安裝
-2. npx 指令是否可用
-3. 設定檔配置正確
 
 
 
