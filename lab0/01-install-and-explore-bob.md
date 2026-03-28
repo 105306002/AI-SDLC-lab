@@ -32,52 +32,39 @@
 > 💡 **進階 Tips: 為什麼要學 CLI 模式？**
 > 雖然 IDE Chat 視窗很方便，但 CLI 模式支援 **管道操作 (Piping)** 與 **自動化腳本 (Scripting)**。當你需要批次處理大量檔案，或在無介面的伺服器環境（如 SSH）操作時，CLI 將是你的最強利器。
 
-### **方式 A：透過 VS Code 快速安裝 (推薦)**
-如果你已開啟 VS Code，這是最簡單的安裝路徑：
-1. 按下 `Ctrl + Shift + P` (Win) 或 `Cmd + Shift + P` (macOS)。
-2. 輸入並執行指令：
-   ```plaintext
-   > bobide
-   ```
-💡 此指令會自動在背景下載並掛載 Bob 核心組件與必要的依賴環境。
+# Bob Shell 安裝指南
 
-### **方式 B：透過終端機手動安裝 (傳統方式)**
-若方式 A 無法執行，請根據您的作業系統開啟終端機並輸入以下指令：
+## 🚀 安裝 Bob Shell
 
-#### **macOS / Linux (Terminal)**
+選取您的作業系統，然後複製並執行命令以安裝 Bob Shell。
+
+### **Windows**
+
+在 PowerShell 中執行：
+
+```powershell
+powershell -ep Bypass 'irm -Uri "https://bob.ibm.com/download/bobshell.ps1" | iex'
+```
+
+### **macOS / Linux**
+
+在 Terminal 中執行：
+
 ```bash
 curl -fsSL https://bob.ibm.com/download/bobshell.sh | bash
 ```
 
-#### **Windows (PowerShell)**
-```bash
-powershell -ep Bypass 'irm -Uri "https://bob.ibm.com/download/bobshell.ps1" | iex'
-```
+---
 
-## 🚀 啟動 Bob Shell 的兩種方式
+## ✅ 驗證安裝
 
-安裝完成後，你可以根據任務需求隨時切換啟動模式：
-
-### **1. IDE 視窗模式**
-此方式會在 VS Code 內部開啟專署終端機。
-
-1. 按下 `Ctrl + Shift + P` (Win) 或 `Cmd + Shift + P` (macOS)。
-2. 在 VS Code 命令選擇區輸入並執行：
-   ```plaintext
-   > run bobshell
-   ```
-
-### **2. Terminal CLI 模式**
-
-如果你習慣在自己的 **Terminal** 操作，或者需要執行跨系統的任務，可以直接在終端機呼叫 Bob。
-
-在終端機（Terminal / PowerShell）中直接輸入：
+安裝完成後，在終端機中輸入以下命令來啟動 Bob：
 
 ```bash
 bob
 ```
 
-
+如果看到 Bob Shell 的歡迎畫面，表示安裝成功！
 輸入 `exit` 或按 `Ctrl+C` 可以退出 BobShell。
 
 ---
