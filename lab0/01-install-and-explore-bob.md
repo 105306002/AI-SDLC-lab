@@ -40,7 +40,7 @@
 
 ### **Windows**
 
-在 PowerShell 中執行：
+以系統管理員身份打開 PowerShell 中執行：
 
 ```powershell
 powershell -ep Bypass 'irm -Uri "https://bob.ibm.com/download/bobshell.ps1" | iex'
