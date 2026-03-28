@@ -121,8 +121,8 @@ node -v
 
 ### 方法 2: 使用 Bob 測試對話
 1. 開啟 Bob 聊天面板。
-2. 輸入：`請使用 Git MCP Server 查看目前的 Git 狀態`
-3. Bob 應會自動呼叫工具並回傳結果。
+2. 輸入：`Git MCP Server 工具有哪些`
+
 
 ---
 
