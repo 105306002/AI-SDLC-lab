@@ -34,7 +34,7 @@
 ```bash
 /mode advanced
 
-使用 MCP, Clone 專案 modernization-demo repository 到本機
+使用 MCP 工具, Clone 我帳號底下的 modernization-demo repository 到本機
 ```
 
 #### 3. 驗證 Clone 結果
