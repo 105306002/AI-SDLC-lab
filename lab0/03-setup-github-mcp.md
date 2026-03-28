@@ -129,21 +129,11 @@ ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 🔧 步驟 2: 設定 GitHub MCP Server
 
-### 2.1 找到 MCP 設定檔
 
-**Windows**:
-```
-C:\Users\<你的使用者名稱>\.bob\settings\mcp_settings.json
-```
-
-**macOS**:
-```
-/Users/<你的使用者名稱>/.bob/settings/mcp_settings.json
-```
 
 ### 2.2 開啟設定檔
 
-使用 VSCode 或文字編輯器開啟 `mcp_settings.json`
+使用 VSCode 開啟 `mcp_settings.json`
 
 ### 2.3 新增 GitHub MCP Server 配置
 
