@@ -13,7 +13,7 @@
 - 記錄開發任務
 - 團隊討論
 
-<img width="1435" alt="" src="https://github.ibm.com/user-attachments/assets/978c6a1f-6c5a-4232-992b-358952342c08" />
+<img width="615" height="417" alt="Image" src="https://github.com/user-attachments/assets/38d94547-1276-498d-9a26-38351f757ce6" />
 
 
 
@@ -43,7 +43,8 @@
 
 ```bash
 /mode advanced
-在我的 modernization-demo 專案中創建一個 Issue，
+
+使用 MCP 在我的 modernization-demo 專案中創建一個 Issue，
     標題是 '將專案從.netcore 轉換為java 程式碼'，
     描述是 空白即可
 ```
@@ -57,7 +58,7 @@ Bob 會調用 **GitHub MCP** 執行以下流程：
 #### 3. 驗證結果
 你可以前往 GitHub 網頁的 **Issues** 標籤頁，確認工單已成功建立。
 
-<img width="1463" alt="issue" src="https://github.ibm.com/user-attachments/assets/8c7262aa-b947-430a-aa01-3400ff6ddbc6" />
+<img width="794" height="776" alt="Image" src="https://github.com/user-attachments/assets/f7206e40-0ae5-46e3-b597-e4ebd1b8c702" />
 
 > 💡 **為什麼在 CLI 建立 Issue？**
 > 這展現了 **Bob 與 GitHub MCP** 的強大整合力。開發者在準備環境的同時，就能順手完成行政管理任務，實現「一站式」的自動化流程。
