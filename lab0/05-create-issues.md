@@ -60,9 +60,6 @@ Bob 會調用 **GitHub MCP** 執行以下流程：
 
 <img width="794" height="776" alt="Image" src="https://github.com/user-attachments/assets/f7206e40-0ae5-46e3-b597-e4ebd1b8c702" />
 
-> 💡 **為什麼在 CLI 建立 Issue？**
-> 這展現了 **Bob 與 GitHub MCP** 的強大整合力。開發者在準備環境的同時，就能順手完成行政管理任務，實現「一站式」的自動化流程。
-
 ---
 
 ## ✅ 完成檢查
