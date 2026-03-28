@@ -265,20 +265,6 @@ ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 }
 ```
 
----
-
-## ❌ 常見問題排解
-
-### 問題 1: Podman 找不到
-
-**症狀**: 
-```
-Error: podman: command not found
-```
-
-**解決方法**:
-1. 確認 Podman 已安裝並啟動
-2. 重新啟動終端機/VSCode
 
 
 
