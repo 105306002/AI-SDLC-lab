@@ -41,10 +41,12 @@ podman --version
 
 如果沒有安裝：
 
-**Windows** (OS: Windows 10 Version 22H2):
+**Windows** :
+https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md
+https://github.com/containers/podman/releases 下載 podman msi 檔
 ```bash
-winget install -e --id RedHat.Podman
-winget install -e --id RedHat.Podman-Desktop
+
+wsl --install
 podman machine init
 podman machine set --rootful
 podman machine start
