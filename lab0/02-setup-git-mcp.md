@@ -229,7 +229,7 @@ Error: npx: command not found
 **解決方法**:
 1. 確認已重新啟動 Bob
 2. 檢查 MCP Server 是否正在運行
-3. 嘗試切換到 Advanced 模式（Bob 右上角）並且 Bob 解決 error
+3. 嘗試切換到 Advanced 模式（Bob 右上角）並請 Bob 解決 error
 
 
 ## 📊 設定檔完整範例
