@@ -106,7 +106,7 @@ Bob 提供多種專門針對特定開發情境優化的 **運作模式 (Modes)**
   <br>
   <em>(於 Ask 模式下進行初步對話測試)</em>
 </p>
-
+<img width="814" height="136" alt="Image" src="https://github.com/user-attachments/assets/7e86b2bf-0a47-4025-be30-d394a6780e5b" />
 > **輸入指令：**
 > 「請比較單體架構 (Monolithic) 與微服務架構 (Microservices) 在金融系統中的優缺點。」
 
