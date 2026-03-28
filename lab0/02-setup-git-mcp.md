@@ -209,7 +209,7 @@ Error: npx: command not found
 ```
 
 **解決方法**:
-1. 確認 Node.js 已正確安裝：`node --version`
+1. 確認 Node.js 已正確安裝：`node -v`
 2. 重新安裝 Node.js
 3. 重新啟動終端機 VSCode
 
@@ -219,9 +219,8 @@ Error: npx: command not found
 
 **解決方法**:
 1. 檢查 `mcp_settings.json` 語法是否正確（JSON 格式）
-2. 確認 Git 已安裝：`git --version`
-3. 查看 Bob 的錯誤日誌（VSCode 輸出面板）
-4. 嘗試手動執行：`npx -y @cyanheads/git-mcp-server`
+2. 查看 Bob 的錯誤日誌（VSCode 輸出面板）
+3. 嘗試手動執行：`npx -y @cyanheads/git-mcp-server`
 
 ### 問題 3: Bob 無法執行 Git 操作
 
