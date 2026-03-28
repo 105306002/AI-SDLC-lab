@@ -26,7 +26,7 @@
 1. 按下 `Win + S` 搜尋並開啟「**編輯系統環境變數**」。
 2. 點擊「**環境變數 (N)...**」按鈕。
 3. 在「**使用者變數**」區塊中找到 `Path`，點選「**編輯**」。
-4. 點擊「**新增**」，並貼入`C:\Program Files\nodejs`。
+4. 點擊「**新增**」，並貼入`C:\Program Files\nodejs` & `C:\Users\Administrator\AppData\Roaming\npm`。
 5. **重要**：設定完成後，必須**重啟** PowerShell 才會生效 測試 `node -v` & `npm -v `。
 
 <img width="497" height="200" alt="Image" src="https://github.com/user-attachments/assets/5a3ecd72-d2ac-4527-a07b-08af007a0397" />
