@@ -41,6 +41,7 @@
 - [ ] **Pull Request**：GitHub 上已成功建立 PR，且標題與內容清楚描述了本次遷移。
 - [ ] **Issue 連結**：PR 頁面的右側顯示已連結到對應的開發 Issue。
 <img width="685" height="353" alt="Image" src="https://github.com/user-attachments/assets/0d361328-5f1c-4b14-a9c8-eb56897e9cfc" />
+
 ---
 
 ## ✅ 驗證檢查
