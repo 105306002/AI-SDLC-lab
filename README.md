@@ -55,9 +55,9 @@
 
 ## 技術架構與工具
 
-- **核心助教**: **Bob AI Agent** (VS Code 整合助手)
-- **溝通協議**: **MCP (Model Context Protocol)** - 讓 AI 具備「手」能操作工具
-- **整合工具**: Git MCP Server / GitHub MCP Server / Podman
+- **核心助教**: **Bob AI Agent** 
+- **溝通協議**: **MCP (Model Context Protocol)** 
+- **整合工具**: Git MCP Server / GitHub MCP Server / Git / Node.js
 - **範例技術棧**: .NET (Legacy) → Java & Spring Boot (Target) / JUnit 5
 
 ---
