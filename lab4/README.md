@@ -29,7 +29,7 @@
 
 **指令範本：**
 ```text
-幫我建立一個名為 `feat/modernization-java` 的新分支，將所有變更提交上去，並根據我的 Issue 建立一個 Pull Request 到 main 分支。
+使用 MCP 建立一個名為 `feat/modernization-java` 的新分支，將所有變更提交上去，並根據我的 Issue 建立一個 Pull Request 到 main 分支。
 ```
 
 ---
