@@ -77,7 +77,7 @@ Lab 1 將使用 BobShell CLI 進行操作，切換到專案目錄：
 
 - [ ] 已成功 Clone modernization-demo 專案到本機
 - [ ] 已在 BobShell 中切換到專案目錄
-- [ ] 可以在檔案總管中看到專案檔案結構
+- [ ] 可以看到專案檔案結構
 
 ---
 
