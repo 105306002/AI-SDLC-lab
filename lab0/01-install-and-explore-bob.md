@@ -70,8 +70,7 @@ bob
 ---
 
 ## 認識 Bob AI 運作模式 (Modes)
-
- <img src="https://github.ibm.com/user-attachments/assets/7d9faebf-e94e-4c18-a0cd-e53001ee0954" width="400">
+<img width="268" height="362" alt="Image" src="https://github.com/user-attachments/assets/2f4b185b-62a3-4d5e-9ba7-9b5af6ba57a9" />
 
 Bob 提供多種專門針對特定開發情境優化的 **運作模式 (Modes)**。透過切換模式，系統會調整其邏輯推理深度與內建工具集，以確保產出結果符合當前的開發階段。
 
@@ -101,7 +100,6 @@ Bob 提供多種專門針對特定開發情境優化的 **運作模式 (Modes)**
 
 
 #### **1. ❓ 切換至 Ask 模式**
-
 <p align="left">
   <br>
   <em>(於 Ask 模式下進行初步對話測試)</em>
