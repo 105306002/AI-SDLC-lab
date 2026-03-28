@@ -30,7 +30,7 @@
 在開始設定前，請確保：
 
 - ✅ 已安裝 **Bob AI 助手**（參考 [01-install-and-explore-bob.md](./01-install-and-explore-bob.md)）
-- ✅ 已安裝 **Node.js**（版本 16 或以上）
+- ✅ 已安裝 **Node.js**（版本 22.15 或以上）
 
 
 ### 檢查 Node.js 版本
@@ -38,7 +38,7 @@
 開啟終端機（Terminal）並執行：
 
 ```bash
-node --version
+node -v
 ```
 
 應該顯示類似：`v18.x.x` 或更高版本
