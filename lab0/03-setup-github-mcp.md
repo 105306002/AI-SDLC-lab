@@ -180,11 +180,8 @@ ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### 2.4 重新啟動 Bob
 
-**重要**: 必須重新啟動 Bob 才能載入新的 MCP 設定
+**重要**: 必須完全關閉並重新啟動 Bob 才能載入新的 MCP 設定
 
-1. 關閉 VSCode
-2. 重新開啟 VSCode
-3. 等待 Bob 啟動（約 10-15 秒，首次啟動會下載 Docker 映像）
 
 ---
 
