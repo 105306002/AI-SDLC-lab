@@ -1,4 +1,5 @@
-<img width="777" height="66" alt="image" src="https://github.com/user-attachments/assets/1f10dc96-a662-4598-a84c-ab8b59cfa7bf" /><img width="777" height="66" alt="image" src="https://github.com/user-attachments/assets/4ccd1955-6a0f-4262-b192-beb5314a8937" />## 04. Fork Repository
+
+## 04. Fork Repository
 
 **🎯 目標**：將 `modernization-demo` 專案 **Fork** 到你的 GitHub 帳號。我們將利用 **GitHub MCP** 的能力，直接在終端機要求 Bob 幫我們完成遠端倉庫的複製，無需開啟瀏覽器。
 
