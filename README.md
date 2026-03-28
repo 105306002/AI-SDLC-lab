@@ -8,6 +8,8 @@
 
 本指南旨在展示 **AI-SDLC (AI-Assisted Software Development Life Cycle)** 的實踐路徑。我們將傳統的線性開發任務，轉化為由 AI 驅動的自動化工作流：
 
+<img width="1012" height="554" alt="Image" src="https://github.com/user-attachments/assets/789131fb-8b31-4463-a5f3-0e5bad68cdba" />
+
 | 傳統開發 | → | AI-SDLC 自動化流程 |
 |---------|---|-------------------|
 | 📋 手動解讀 Issue 與撰寫文件 | → | **自動化需求分析**：從 GitHub 提取需求並產生設計文件 |
