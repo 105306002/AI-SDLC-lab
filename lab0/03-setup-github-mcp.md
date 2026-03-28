@@ -147,7 +147,7 @@ C:\Users\<你的使用者名稱>\.bob\settings\mcp_settings.json
 
 ### 2.3 新增 GitHub MCP Server 配置
 
-在現有的 `git` 配置後面，新增 `github` 配置：
+在現有的 `git` 配置，新增 `github` 配置：
 
 ```json
 {
