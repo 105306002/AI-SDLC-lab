@@ -61,11 +61,12 @@ curl -fsSL https://bob.ibm.com/download/bobshell.sh | bash
 ## ✅ 驗證安裝
 
 安裝完成後，在 Bob 的終端機中輸入以下命令來啟動 Bob：
-<img width="1053" height="467" alt="Image" src="https://github.com/user-attachments/assets/5345de5f-9799-4fd7-8665-1e07b6d6f2a0" />
+
 
 ```bash
 bob
 ```
+<img width="1064" height="910" alt="Image" src="https://github.com/user-attachments/assets/4170fbad-1caa-46d5-95d9-19ca818c5c6f" />
 
 如果看到 Bob Shell 的歡迎畫面，表示安裝成功！
 輸入 `exit` 或按 `Ctrl+C` 可以退出 BobShell。
