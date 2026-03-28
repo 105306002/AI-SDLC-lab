@@ -184,7 +184,7 @@ C:\Users\<你的使用者名稱>\.bob\settings\mcp_settings.json
       ],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN=<你的 GitHub Token>",
-        "GITHUB_HOST": "https://github.ibm.com"
+        "GITHUB_HOST": "https://github.com"
       },
       "alwaysAllow": [],
       "disabledTools": []
