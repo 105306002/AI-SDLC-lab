@@ -71,8 +71,7 @@ bob
 
 ## 認識 Bob AI 運作模式 (Modes)
 
-
-
+ <img src="https://github.ibm.com/user-attachments/assets/7d9faebf-e94e-4c18-a0cd-e53001ee0954" width="400">
 
 Bob 提供多種專門針對特定開發情境優化的 **運作模式 (Modes)**。透過切換模式，系統會調整其邏輯推理深度與內建工具集，以確保產出結果符合當前的開發階段。
 
