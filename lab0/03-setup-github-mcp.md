@@ -189,32 +189,19 @@ ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ---
 
 ## ✅ 驗證設定
-<img width="721" alt="github" src="https://github.ibm.com/user-attachments/assets/ae0ea877-247b-4b22-a586-0097e3b52f22" />
+<img width="987" height="353" alt="Image" src="https://github.com/user-attachments/assets/2bd7ee4b-2049-4ec3-a97a-e615245c69dd" />
 
-### 測試 1: 檢查 GitHub 連接
 
-1. 開啟 Bob IDE 聊天面板
-2. 切換到 **Advanced 模式**
-3. 輸入以下訊息：
-   ```
-   請使用 GitHub MCP Server 列出我的 repositories
-   ```
-4. Bob 會顯示你的 GitHub repositories 列表
+## 🧪 CLI 測試 GitHub MCP Server
 
----
-
-## 🧪 CLI 測試 MCP Server
-
-除了透過 Bob 測試，也須使用命令列直接測試 GitHub MCP Server 是否正常運作。
-
-### 測試方法
+使用 Bob Shell 測試 GitHub MCP Server 是否正常運作。
 
 開啟終端機並執行：
 ```bash
 /mcp list
 ```
 若出現以下 github 工具則已經設定成功：
-![Bob 顯示 MCP Server 工具列選單](https://github.ibm.com/user-attachments/assets/f08c5e99-b353-4523-86c3-1a73f40795f0)
+<img width="358" height="459" alt="Image" src="https://github.com/user-attachments/assets/78db37c2-7ecc-4a28-9db1-29be533d8b86" />
 
 
 ---
