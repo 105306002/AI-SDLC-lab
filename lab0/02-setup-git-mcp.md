@@ -31,6 +31,7 @@
 
 - ✅ 已安裝 **Bob AI 助手**（參考 [01-install-and-explore-bob.md](./01-install-and-explore-bob.md)）
 - ✅ 已安裝 **Node.js**
+- ✅ 已安裝 Git
 
 
 ### 檢查 Node.js 版本
@@ -39,6 +40,7 @@
 
 ```bash
 node -v
+git --version
 ```
 
 應該顯示類似：`v18.x.x` 或更高版本
