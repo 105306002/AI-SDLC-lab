@@ -298,9 +298,7 @@ ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - [ ] Token 已儲存到安全的地方
 - [ ] `mcp_settings.json` 已正確配置
 - [ ] Bob 已重新啟動
-- [ ] Bob 可以列出你的 repositories
-- [ ] Bob 可以讀取 Issues
-- [ ] 了解如何保護 Token 安全
+
 
 ---
 
