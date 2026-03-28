@@ -131,11 +131,11 @@ ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-### 2.2 開啟設定檔
+### 2.1 開啟設定檔
 
-使用 VSCode 開啟 `mcp_settings.json`
+使用 VSCode 開啟 `mcp_settings.json` (Settings -> MCP -> Global MCP)
 
-### 2.3 新增 GitHub MCP Server 配置
+### 2.2 新增 GitHub MCP Server 配置
 
 在現有的 `git` 配置，新增 `github` 配置：
 
@@ -173,12 +173,12 @@ ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 **重要**: 將 `<你的 GitHub Token>` 替換為你在步驟 1.4 複製的 token！
 
-### 2.4 儲存設定檔
+### 2.3 儲存設定檔
 
 1. 按下 `Ctrl+S` (Windows) 或 `Cmd+S` (macOS) 儲存
 2. 確認檔案已儲存
 
-### 2.5 重新啟動 Bob
+### 2.4 重新啟動 Bob
 
 **重要**: 必須重新啟動 Bob 才能載入新的 MCP 設定
 
