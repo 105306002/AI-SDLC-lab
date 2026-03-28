@@ -59,24 +59,12 @@ node --version
 
 ### 步驟 1: 找到 MCP 設定檔
 
-你可以選擇手動路徑搜尋，或透過 VS Code 介面直接開啟。
-
-#### 方法 A: 手動路徑開啟
-1. 在 VS Code 中按下 `Ctrl+P` (Windows) 或 `Cmd+P` (macOS)。
-2. 輸入路徑並按 **Enter**：
-   - **Windows**: `C:\Users\<你的使用者名稱>\.bob\settings\mcp_settings.json`
-   - **macOS**: `~/.bob/settings/mcp_settings.json`
-
-<img width="800" alt="path" src="https://github.ibm.com/user-attachments/assets/34e23b51-7804-41b7-a4c6-dca99efd5253" />
-
----
-
-#### 方法 B: 使用 VS Code 介面開啟
+#### 使用 VS Code 介面開啟
 1. 按下 Bob 插件介面右上角的齒輪 **Settings**。
-   <img width="734" alt="set" src="https://github.ibm.com/user-attachments/assets/ba59255c-da0f-4a52-b71f-a53816cadfe7" />
+   <img width="734" height="121" alt="Image" src="https://github.com/user-attachments/assets/fa74493c-bd73-498f-9b79-5cf6329fd6cc" />
 2. 在選單中選取 **MCP**。
 3. 找到 **Global MCP** 區塊，按下 **Open**。
-   <img width="600" height="500" src="https://github.ibm.com/user-attachments/assets/f9b4a774-6966-48a7-a59b-21f3bf7919d0" />
+   <img width="545" height="510" alt="Image" src="https://github.com/user-attachments/assets/16d72949-4591-47fb-a2dc-c8f14abc2f6e" />
 4. 系統會自動開啟 `mcp_settings.json` 檔案。
 
 ---
@@ -129,7 +117,7 @@ node --version
     * 🟢 **綠色燈** = 設定成功，正常運作。
     * 🔴 **紅色燈** = 設定失敗，請檢查 JSON 語法或環境變數。
 
-<img width="618" alt="status" src="https://github.ibm.com/user-attachments/assets/b4b6c250-15d7-4188-a0d6-20225fa3611c" />
+<img width="618" height="684" alt="Image" src="https://github.com/user-attachments/assets/e91a5a1a-c79f-4a59-8bda-f0a8f65955d2" />
 
 ### 方法 2: 使用 Bob 測試對話
 1. 開啟 Bob 聊天面板。
@@ -146,7 +134,7 @@ node --version
 /mcp list
 ```
 
-<img width="1512" alt="git_cli" src="https://github.ibm.com/user-attachments/assets/a52bdf33-254f-49ae-8517-a7b27ac2a094" />
+<img width="1512" height="982" alt="Image" src="https://github.com/user-attachments/assets/f0a0401b-953c-479e-ae1f-9145f8930cfb" />
 
 ---
 
