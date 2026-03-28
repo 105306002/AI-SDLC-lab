@@ -34,7 +34,7 @@
 - ✅ 已安裝 Git
 
 
-### 檢查 Node.js 版本
+### 檢查 Node.js & Git 版本
 
 開啟終端機（Terminal）並執行：
 
