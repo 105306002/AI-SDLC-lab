@@ -43,11 +43,15 @@ node -v
 git --version
 ```
 
-應該顯示類似：`v18.x.x` 或更高版本
+
 
 如果沒有安裝 Node.js：
 - **Windows**: 前往 [nodejs.org](https://nodejs.org) 下載安裝
 - **macOS**: 使用 Homebrew: `brew install node`
+
+如果沒有安裝 Git：
+- **Windows**: 前往 [Git 官網](https://git-scm.com/) 下載安裝
+- **macOS**: 使用 Homebrew: `brew install git`
 
 ---
 
