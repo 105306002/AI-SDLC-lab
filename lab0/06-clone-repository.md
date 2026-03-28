@@ -7,7 +7,7 @@
 ### 前置需求
 在開始本章節前，請確保你已完成以下準備工作：
 * [ ] 已完成 **步驟 05**，成功建立 Issues。
-* [ ] 已正確設定 **Git MCP Server、GitHub MCP Server**。
+* [ ] 已正確設定 **Git MCP Server**。
 
 ---
 
@@ -16,8 +16,7 @@
 **Clone** 是將遠端伺服器（GitHub）上的專案完全複製一份到你「本地電腦」的動作。
 
 #### 為什麼要 Clone？
-* ✅ **本地開發**：在自己的電腦上使用慣用的編輯器（如 VS Code）編寫程式。
-* ✅ **離線工作**：程式碼下載後，大部分的操作（Commit, Checkout Branch）都可以在離線狀態完成。
+* ✅ **本地開發**：在自己的電腦上使用慣用的編輯器編寫程式。
 * ✅ **同步版本**：建立本地與遠端的連結，方便後續透過 `Push` 上傳修改或 `Pull` 下載更新。
 
 ---
@@ -34,7 +33,8 @@
 
 ```bash
 /mode advanced
-使用MCP Server Clone 專案 modernization-demo repository 到本機
+
+使用 MCP, Clone 專案 modernization-demo repository 到本機
 ```
 
 #### 3. 驗證 Clone 結果
@@ -49,33 +49,18 @@ Bob 會自動執行 clone 操作，完成後你應該會看到：
 
 Clone 完成後，你需要切換到專案目錄，才能繼續後續的 Lab 1 操作。
 
-Lab 1 將使用 BobShell CLI 進行操作，你可以選擇以下兩種方式切換到專案目錄：
+Lab 1 將使用 BobShell CLI 進行操作，切換到專案目錄：
 
-### 方法 1：在 BobShell 中直接切換（快速方式）
-
-直接在當前的 BobShell 中輸入：
-```bash
-cd modernization-demo
-```
-
-Bob 會幫你執行 `cd` 命令並切換到該目錄。
-
-> ⚠️ **重要提醒**：使用此方法時，雖然 Bob 會執行 `cd` 命令，但 BobShell 的提示符仍會顯示「You are in home directory」。這是正常現象，實際上目錄已經切換成功，後續的 Git 和檔案操作都會在專案目錄下執行。
-
-### 方法 2：重新啟動 BobShell（推薦方式）
-
-如果你希望 BobShell 的提示符正確顯示專案目錄，可以使用此方法：
-
-1. **退出當前的 BobShell**
+**退出當前的 BobShell**
    
    按 `Ctrl+C` 退出
 
-2. **在終端機中切換到專案目錄**
+ **在終端機中切換到專案目錄**
    ```bash
    cd modernization-demo
    ```
 
-3. **重新啟動 BobShell**
+**重新啟動 BobShell**
    ```bash
    bob
    ```
