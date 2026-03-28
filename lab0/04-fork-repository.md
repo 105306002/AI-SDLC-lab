@@ -1,15 +1,14 @@
 ## 04. Fork Repository
 
-**🎯 目標**：將 `modernization-demo` 專案 **Fork** 到你的 GitHub 帳號。我們將利用 **GitHub MCP** 的能力，直接在終端機要求 Bob 幫我們完成遠端倉庫的複製，無需開啟瀏覽器。
+**🎯 目標**：將 `modernization-demo` 專案 **Fork** 到你的 GitHub 帳號。我們將利用 **Git MCP** 的能力，直接在終端機要求 Bob 幫我們完成遠端倉庫的複製，無需開啟瀏覽器。
 
 ---
 
 ### 前置需求
 在開始本章節前，請確保你已完成以下準備工作：
-* [ ] 已擁有 GitHub 帳號。
-* [ ] 已在 **Lab 0** 中正確設定 **GitHub MCP Server** 並完成認證。
+* [ ] 已在正確設定 ** MCP Server** 並完成認證。
 
-> 💡 **小撇步**：若在後續步驟中遇到「找不到 MCP Server」或認證失敗，請重新確認 Lab 0 的安裝與初始化步驟。
+> 💡 **小撇步**：若在後續步驟中遇到「找不到 MCP Server」或認證失敗，請重新確認安裝與初始化步驟。
 
 ---
 
@@ -33,7 +32,7 @@
 
 ### 實作步驟：使用 Bob 執行遠端 Fork
 
-在這個步驟中，我們不需要手動尋找 URL 或打開瀏覽器點擊按鈕。因為你已經配置了 **GitHub MCP**，Bob 可以直接調用 API 在你的帳號下建立副本。
+在這個步驟中，我們不需要手動尋找 URL 或打開瀏覽器點擊按鈕。因為你已經配置了 **Git MCP**，Bob 可以直接調用 API 在你的帳號下建立副本。
 
 #### 1. 啟動 Bob Shell
 開啟終端機，輸入 `bob` 進入互動模式。
@@ -43,14 +42,14 @@
 
 ```bash
 /mode advanced
-使用 GitHub MCP 幫我把這個專案 Fork 到我的帳號：
+使用 MCP Server 幫我把這個專案 Fork 到我的帳號：
 (https://github.com/105306002/modernization-demo)
 ```
 
 #### 3. 觀察 AI 動作
 Bob 會自動執行以下步驟：
 - 🔍 解析專案 URL
-- 🔗 透過 GitHub MCP 調用 Fork API
+- 🔗 透過 MCP 調用 Fork API
 - ✅ 在你的帳號下建立專案副本
 
 #### 4. 驗證結果
