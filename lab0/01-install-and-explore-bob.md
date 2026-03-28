@@ -2,82 +2,81 @@
 
 # Lab 0: 安裝 Bob AI 助手與環境熟悉
 
-> 🎯 **目標**: 在開發環境中完整安裝 Bob AI 助手（含 IDE 與 BobShell CLI），並熟悉其核心運作模式 (Modes)。
+> 🎯 **目標**: 在開發環境中完整安裝 Bob AI 助手。請注意，**Bob IDE (介面)** 與 **Bob CLI (手腳)** 兩者皆為必要組件，缺一不可。
 
 ---
 
+## 🛠️ 步驟 1：安裝 Bob IDE (核心操作介面)
 
-## 步驟 1：安裝 IDE  (核心操作介面)
+請先安裝核心應用程式，這將作為你與 AI 互動的主要視窗。
 
-### Windows 使用者
-1. **下載**: 前往 [Bob 官方網站](https://bob.ibm.com/download)，點擊 **Download for Windows** 下載 `.exe` 安裝檔。
-2. **安裝**: 雙擊執行安裝檔，按照引導完成安裝。
-3. **啟動**: 安裝完成後，Bob 會自動整合並啟動 VS Code。
-
-### macOS 使用者
-1. **下載**: 前往 [Bob 官方網站](https://bob.ibm.com/download)，點擊 **Download for macOS** 下載 `.dmg` 檔案。
-2. **安裝**: 雙擊 `.dmg` 並將 **Bob.app** 拖曳至 **Applications** 資料夾。
-3. **啟動**: 從應用程式資料夾啟動 Bob，系統會自動開啟 VS Code。
+* **Windows**: 前往 [Bob 官網](https://bob.ibm.com/download) 下載 `.exe` 安裝檔並執行。
+* **macOS**: 前往 [Bob 官網](https://bob.ibm.com/download) 下載 `.dmg`，將 **Bob.app** 拖曳至 Applications 資料夾並啟動。
 
 ---
 
-## 步驟 2：安裝 BobShell CLI (命令列介面工具)
+## 🛠️ 步驟 2：安裝 Bob CLI / BobShell (核心驅動工具)
+這是賦予 Bob 執行指令權限的關鍵。請注意，Bob CLI 依賴於開發環境的基礎建設。
 
-BobShell 是一個命令列介面（CLI），讓你不需開啟 VS Code 也能在 Terminal 中與 Bob 進行對話。
+> ⚠️ **前置需求 (Prerequisites)**:
+> 在開始安裝前，請確認您的電腦已安裝 **Node.js (建議版本 v22 以上)**。
+> * **驗證方式**：開啟終端機輸入 `node -v`，若無版本顯示請至 [Node.js 官網]( https://nodejs.org/en) 下載。
+#### **📢 Windows 使用者特別注意：環境變數 (PATH) 設定**
+在 Windows 環境下，若安裝後輸入 `node -v` 顯示「無法辨識指令」，請檢查系統環境變數：
+1. 按下 `Win + S` 搜尋並開啟「**編輯系統環境變數**」。
+2. 點擊「**環境變數 (N)...**」按鈕。
+3. 在「**使用者變數**」區塊中找到 `Path`，點選「**編輯**」。
+4. 點擊「**新增**」，並貼入`C:\Program Files\nodejs`。
+5. **重要**：設定完成後，必須**重啟** PowerShell 才會生效 測試 `node -v`。
 
-### 前置需求
-- ✅ 已完成步驟 1，成功安裝 Bob IDE
-- ✅ Bob IDE 至少啟動過一次
+> 💡 **進階 Tips: 為什麼要學 CLI 模式？**
+> 雖然 IDE Chat 視窗很方便，但 CLI 模式支援 **管道操作 (Piping)** 與 **自動化腳本 (Scripting)**。當你需要批次處理大量檔案，或在無介面的伺服器環境（如 SSH）操作時，CLI 將是你的最強利器。
 
-### macOS 使用者
+### **方式 A：透過 VS Code 快速安裝 (推薦)**
+如果你已開啟 VS Code，這是最簡單的安裝路徑：
+1. 按下 `Ctrl + Shift + P` (Win) 或 `Cmd + Shift + P` (macOS)。
+2. 輸入並執行指令：
+   ```plaintext
+   > bobide
+   ```
+💡 此指令會自動在背景下載並掛載 Bob 核心組件與必要的依賴環境。
 
-1. **開啟 Terminal**
-2. **執行安裝指令**：
+### **方式 B：透過終端機手動安裝 (傳統方式)**
+若方式 A 無法執行，請根據您的作業系統開啟終端機並輸入以下指令：
+
+#### **macOS / Linux (Terminal)**
 ```bash
-curl -fsSL https://bob.ibm.com/download/bobshell.sh | bash
+curl -fsSL [https://bob.ibm.com/download/bobshell.sh](https://bob.ibm.com/download/bobshell.sh) | bash
 ```
-3. **驗證安裝**：
+
+#### **Windows (PowerShell)**
 ```bash
-bob --version
+powershell -ep Bypass 'irm -Uri "[https://bob.ibm.com/download/bobshell.ps1](https://bob.ibm.com/download/bobshell.ps1)" | iex'
 ```
 
-### Linux 使用者
+## 🚀 啟動 Bob Shell 的兩種方式
 
-1. **開啟 Terminal**
-2. **執行安裝指令**：
-```bash
-curl -fsSL https://bob.ibm.com/download/bobshell.sh | bash
-```
-3. **驗證安裝**：
-```bash
-bob --version
-```
+安裝完成後，你可以根據任務需求隨時切換啟動模式：
 
-### Windows 使用者
+### **1. IDE 視窗模式**
+此方式會在 VS Code 內部開啟專署終端機。
 
-1. **開啟 PowerShell**（以系統管理員身分執行）
-2. **執行安裝指令**：
-```powershell
-powershell -ep Bypass 'irm -Uri "https://bob.ibm.com/download/bobshell.ps1" | iex'
-```
-3. **驗證安裝**：
-```powershell
-bob --version
-```
+1. 按下 `Ctrl + Shift + P` (Win) 或 `Cmd + Shift + P` (macOS)。
+2. 在 VS Code 命令選擇區輸入並執行：
+   ```plaintext
+   > run bobshell
+   ```
 
-### 測試 BobShell
+### **2. Terminal CLI 模式**
 
-安裝完成後，在終端機輸入：
+如果你習慣在自己的 **Terminal** 操作，或者需要執行跨系統的任務，可以直接在終端機呼叫 Bob。
+
+在終端機（Terminal / PowerShell）中直接輸入：
+
 ```bash
 bob
 ```
 
-應該會進入 Bob 的互動模式，顯示類似以下的歡迎訊息：
-```
-Welcome to Bob Shell!
-Type 'help' for available commands or start chatting.
->
-```
 
 輸入 `exit` 或按 `Ctrl+C` 可以退出 BobShell。
 
