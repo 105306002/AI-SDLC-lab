@@ -61,7 +61,7 @@ bob
 在 **BobShell (Bob CLI)** 終端機中輸入以下指令，進行深度分析與文件產出：
 
 ```bash
-根據我的 Issue 以及 .NET 程式碼，產生驗收標準與最佳化的 Markdown 設計文件，將設計文件儲存到專案目錄中，並將結果更新到 Issue 的 Comment 中。
+使用 MCP 工具 根據我的 Issue 以及 .NET 程式碼，產生驗收標準與最佳化的 Markdown 設計文件，將設計文件儲存到專案目錄中，並將結果更新到 Issue 的 Comment 中。
 ```
 
 > 💡 **提示**：Bob 會同時讀取 Issue 需求與 `.cs` 檔案邏輯，執行以下操作：
