@@ -40,6 +40,8 @@
 - [ ] **GitHub 分支**：雲端已出現 `feat/modernization-java` 分支。
 - [ ] **Pull Request**：GitHub 上已成功建立 PR，且標題與內容清楚描述了本次遷移。
 - [ ] **Issue 連結**：PR 頁面的右側顯示已連結到對應的開發 Issue。
+
+
 <img width="552" height="343" alt="Image" src="https://github.com/user-attachments/assets/281afd43-e5e5-429a-a1a1-df6c2d987783" />
 
 
