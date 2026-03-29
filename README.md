@@ -77,7 +77,7 @@
 ### 前置需求
 
 - **作業系統**: Windows 10/11 或 macOS
-- **開發工具**: VS Code
+- **開發工具**: IBM Bob
 - **執行環境**: Node.js 22.15+
 - **版本控制**: Git
 - **GitHub 帳號**: 用於 Fork 專案與建立 Issues
