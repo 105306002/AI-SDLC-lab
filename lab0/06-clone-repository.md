@@ -68,7 +68,7 @@ Lab 1 將使用 BobShell CLI 進行操作，切換到專案目錄：
    現在 BobShell 會正確顯示你在 `modernization-demo` 目錄下。
 
 
-
+<img width="630" height="294" alt="Image" src="https://github.com/user-attachments/assets/81134fbf-9a9c-4282-b827-8ad854aa4912" />
 ---
 
 ## ✅ 完成檢查
