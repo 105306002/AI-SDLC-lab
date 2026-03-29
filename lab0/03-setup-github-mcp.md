@@ -29,7 +29,7 @@
 - ✅ 已安裝 **Bob AI 助手**
 - ✅ 已設定 **Git MCP Server**（參考 [02-setup-git-mcp.md](./02-setup-git-mcp.md)）
 - ✅ 有 **GitHub 帳號**
-- ✅ 已安裝 **Node.js(v18.0.0++)**
+- ✅ 已安裝 **Node.js(v18.0.0+)**
 
 
 
